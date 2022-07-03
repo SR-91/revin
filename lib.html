@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>library</title>
+        <link rel="stylesheet" href="sticky2.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <div class="logo">LOGO</div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">INSTRUCTIONS</a></li>
+                            <li><a href="">NOMINALS</a></li>
+                            <li><a href="">TOPPERS</a></li>
+                            <li><a href="">RESOURSES</a></li>
+                            <li><a href="main.html" target="_blank">ALUMNI</a></li>
+                            <li><a href="">GRIEVANCES</a></li>
+
+                        </ul>
+                    
+                </nav>
+            </header>
+            <div class="content">
+                <a href="table.html" target="_blank">
+                    <button style="background-color: black; color: white; border-radius: 10px; font-size: 35px;" height="200"width="100">List of libraries</button>
+                    </a>
+
+               
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $("nav").addClass("black");
+                }
+                else{
+                    $("nav").removeClass("black");
+                }
+            });
+        </script>
+    </body>
+</html>
